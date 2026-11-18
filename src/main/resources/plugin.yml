@@ -1,0 +1,21 @@
+name: CompassTracker
+version: 2.1
+main: me.subhanafz.compasstrack.compasstracker.CompassTracker
+api-version: "1.21"
+description: CompassTracker
+commands:
+  giveCompass:
+    description: Gives you a compass
+    usage: /<command>
+  addSpeedrunners:
+    description: Adds a speedrunner to the Speedrunner list
+    usage: /<command> [Player]
+  getSpeedrunners:
+    description: Prints out all of the speedrunners
+    usage: /<command>
+  removeSpeedrunners:
+    description: Removes a speedrunner from the Speedrunner list
+    usage: /<command> [Player]
+  startTracking:
+    description: Toggle tracking of speedrunners
+    usage: /<command>
